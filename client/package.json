@@ -18,8 +18,8 @@
     "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "npm i && npm run build",
-    "build": "react-scripts build && serve -s build",
+    "start": "npm i && serve -s build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
