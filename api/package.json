@@ -4,7 +4,7 @@
   "description": "",
   "main": "api.js",
   "scripts": {
-    "start": "nodemon api.js",
+    "start": "npm i && nodemon src/api.js",
     "test": "mocha src/tests/*.test.js"
   },
   "keywords": [],
