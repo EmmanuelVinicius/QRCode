@@ -6,7 +6,7 @@
   "scripts": {
     "client": "cd client && npm i && npm start",
     "server": "cd server && npm i && npm start",
-    "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+    "start": "concurrently-kill-others \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
