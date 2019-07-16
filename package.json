@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "cd client && npm start",
-    "server": "cd server && npm start",
+    "client": "cd client && npm run init",
+    "server": "cd server && npm run init",
+    "init": "npm i && npm start",
     "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
   },
   "keywords": [],
