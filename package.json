@@ -6,7 +6,7 @@
   "scripts": {
     "client": "cd client && npm init",
     "server": "cd api && npm start",
-    "start": "\"npm run client\" && \"npm run server\""
+    "start": "npm run client && npm run server"
   },
   "keywords": [],
   "author": "",
