@@ -7,6 +7,7 @@
     "bootstrap": "^4.3.1",
     "formik": "^1.5.7",
     "html2canvas": "^1.0.0-rc.3",
+    "http-proxy-middleware": "^0.19.1",
     "jspdf": "^1.5.3",
     "qrcode.react": "^0.9.3",
     "react": "^16.8.6",
@@ -18,12 +19,12 @@
     "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "npm i && serve -s build",
-    "build": "react-scripts build",
+    "start": "serve -s build",
+    "build": "react-scripts build && npm start",
+    "init": "npm i && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://blooming-lake-82276.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
   },
